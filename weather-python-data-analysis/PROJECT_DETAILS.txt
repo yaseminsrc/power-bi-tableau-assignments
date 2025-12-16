@@ -2,15 +2,25 @@
 
 This project performs weather data analysis using Python. The data includes temperature and humidity measurements for multiple cities, and the analysis focuses on understanding patterns and trends in the weather data.
 
+
+
+### 🛠️ Technologies:
+
+
+
 ### 📊 Project Overview:
 - **Data Source:** `weather_data.csv` - Contains weather data for various cities.
 - **Libraries Used:** Pandas, NumPy
-- **Operations:** Data exploration, filtering, sorting, and statistical analysis.
+- **Operations:** Data exploration, filtering, sorting, and statistical analysis,     
+                - Calculating average temperatures by city,       
+                - Exporting results to CSV
 - **Output:** Analyzed weather data (temperature, humidity) for different cities.
 
 ### 🛠️ Technologies:
-- **Pandas**: Data manipulation and analysis
-- **NumPy**: Numerical operations for data processing
+- **Python**
+- **Jupyter Notebook** (for interactive analysis)
+- **Pandas** (for data manipulation and analysis)
+- **NumPy** (for calculations, numerical operations for data processing)
 
 ### 📂 Project Files:
 - `weather_data.csv`: Raw weather data file.
