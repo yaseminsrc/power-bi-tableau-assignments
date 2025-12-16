@@ -1,0 +1,48 @@
+# 🌤️ Weather Python Data Analysis
+
+This project performs weather data analysis using Python. The data includes temperature and humidity measurements for multiple cities, and the analysis focuses on understanding patterns and trends in the weather data.
+
+### 📊 Project Overview:
+- **Data Source:** `weather_data.csv` - Contains weather data for various cities.
+- **Libraries Used:** Pandas, NumPy
+- **Operations:** Data exploration, filtering, sorting, and statistical analysis.
+- **Output:** Analyzed weather data (temperature, humidity) for different cities.
+
+### 🛠️ Technologies:
+- **Pandas**: Data manipulation and analysis
+- **NumPy**: Numerical operations for data processing
+
+### 📂 Project Files:
+- `weather_data.csv`: Raw weather data file.
+- `weather_analysis.ipynb`: Jupyter Notebook with data analysis steps.
+- `sehir_sicakliklari.csv`: Exported CSV containing average temperatures by city.
+
+### 🔍 Key Analysis Steps:
+1. **Data Exploration:**
+   - Inspecting the first and last 5 rows of the dataset.
+   - Generating a statistical summary of the temperature and humidity data.
+
+2. **Filtering Data:**
+   - Filtering records where the temperature exceeds 30°C.
+   - Filtering records for specific cities (e.g., only "Bursa").
+
+3. **Logical Filtering:**
+   - Filtering data using logical operators like AND (`&`) and OR (`|`).
+
+4. **Sorting:**
+   - Sorting the data by temperature (descending order).
+   - Sorting by humidity and city name.
+
+5. **Data Transformation:**
+   - Adding new columns:
+     - Temperature in Fahrenheit.
+     - "Feels Like" temperature (based on temperature and humidity).
+
+6. **Grouping and Aggregation:**
+   - Grouping data by city and calculating the average temperature.
+
+7. **Analysis of Extremes:**
+   - Finding the highest temperature and lowest humidity values in the dataset.
+
+8. **Exporting Results:**
+   - Saving the average temperature by city into a CSV file: `sehir_sicakliklari.csv`.
