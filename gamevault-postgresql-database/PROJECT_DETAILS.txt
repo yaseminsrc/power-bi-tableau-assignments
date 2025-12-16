@@ -55,3 +55,11 @@ Veritabanı aşağıdaki tablolardan oluşur:
 - Veri bütünlüğü için `FOREIGN KEY`
 - Güvenli silme için `ON DELETE CASCADE`
 - Duplicate ilişkileri önlemek için `UNIQUE(game_id, genre_id)`
+
+---
+
+🚀 **Nasıl Çalıştırılır?**
+
+- PostgreSQL veritabanı oluşturun     
+- gamevault.sql dosyasını çalıştırın     
+- Tablolar, veriler ve sorgular otomatik oluşacaktır
