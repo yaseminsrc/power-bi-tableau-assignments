@@ -46,3 +46,8 @@ This project performs weather data analysis using Python. The data includes temp
 
 8. **Exporting Results:**
    - Saving the average temperature by city into a CSV file: `sehir_sicakliklari.csv`.
+
+### 📝 How to Use:
+1. Download the CSV file `weather_data.csv`.
+2. Run the provided Jupyter Notebook `weather_analysis.ipynb` to perform the analysis.
+3. The results will be saved in `sehir_sicakliklari.csv`.
