@@ -1,4 +1,4 @@
-# 🎮 GameVault PostgreSQL Database
+# 🎮 GameVault Database (PostgreSQL)
 
 ## 📌 Proje Tanımı
 
@@ -71,5 +71,5 @@ Veritabanı aşağıdaki tablolardan oluşur:
 🚀 **Nasıl Çalıştırılır?**
 
 - PostgreSQL veritabanı oluşturun     
-- gamevault.sql dosyasını çalıştırın     
+- games_script.sql dosyasını çalıştırın     
 - Tablolar, veriler ve sorgular otomatik oluşacaktır
