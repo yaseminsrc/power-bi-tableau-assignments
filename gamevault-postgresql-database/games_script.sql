@@ -100,9 +100,6 @@ INSERT INTO games_genres (game_id, genre_id) VALUES
 -- Far Cry 6
 (10,2),(10,4);
 
-select * from games
-
-
 -- ========================================
 -- Bölüm 3: Güncelleme ve Silme (UPDATE / DELETE) - CASCADE ile
 -- ========================================
@@ -153,3 +150,4 @@ SELECT title AS "Oyun Adı",
        price AS "Fiyat"
 FROM games
 WHERE title LIKE '%War%';
+
