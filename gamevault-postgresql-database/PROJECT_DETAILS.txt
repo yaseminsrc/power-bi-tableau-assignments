@@ -1,7 +1,10 @@
 # 🎮 GameVault PostgreSQL Database
 
-GameVault, Steam veya Epic Games benzeri bir **dijital oyun dağıtım platformu** için tasarlanmış bir **PostgreSQL veritabanı projesidir**.  
-Bu proje; oyun geliştiricileri, oyunlar ve oyun türleri arasındaki ilişkileri modellemeyi amaçlar.
+## 📌 Proje Tanımı
+
+GameVault, Steam veya Epic Games benzeri bir dijital oyun dağıtım platformu için tasarlanmış bir PostgreSQL veritabanı projesidir.
+
+Bu proje; oyun geliştiricileri (developers), oyunlar (games) ve oyun türleri (genres) arasındaki ilişkileri doğru ve ölçeklenebilir bir şekilde modellemeyi amaçlamaktadır.
 
 ---
 
@@ -9,11 +12,14 @@ Bu proje; oyun geliştiricileri, oyunlar ve oyun türleri arasındaki ilişkiler
 
 - İlişkisel veritabanı tasarımı (Relational Database Design)
 - One-to-Many ve Many-to-Many ilişkilerin doğru kurulması
+- Foreign Key ve ON DELETE CASCADE kullanımını öğrenmek
+- Temel SQL sorgularını (DDL & DML) pratiğe dökmek
 - PostgreSQL üzerinde:
   - `PRIMARY KEY`
   - `FOREIGN KEY`
   - `ON DELETE CASCADE`
   - `JOIN`, `INSERT`, `UPDATE`, `DELETE` sorgularının uygulanması
+- Gerçek hayata yakın bir senaryo üzerinde çalışma yapmak
 
 ---
 
@@ -53,8 +59,12 @@ Veritabanı aşağıdaki tablolardan oluşur:
 
 - Otomatik artan `SERIAL` primary key
 - Veri bütünlüğü için `FOREIGN KEY`
-- Güvenli silme için `ON DELETE CASCADE`
 - Duplicate ilişkileri önlemek için `UNIQUE(game_id, genre_id)`
+- Güvenli silme için `ON DELETE CASCADE`
+- ON DELETE CASCADE kullanımı sayesinde:
+  - Bir oyun silindiğinde, o oyuna ait tüm games_genres kayıtları otomatik olarak silinir.     
+  - Manuel olarak ara tabloyu silmeye gerek kalmaz.
+  - Veri bütünlüğü korunur.
 
 ---
 
